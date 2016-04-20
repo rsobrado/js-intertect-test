@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background: powderblue;
+}
+form{
+	line-height: 1;
+	overflow: hidden;
+}
+
+.demo-list-two {
+  width: 300px;
+  position: relative;
+}
+.demo-list-two li{
+	font-size: 0.9em;
+}
+.mdl-card__supporting-text {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.mdl-textfield__input, .mdl-textfield__label {
+    max-width: 250px;
+}
+
+.mdl-textfield .mdl-button{
+    right: 10px;
+}
+
+.mdl-button--raised.mdl-button--colored {
+	line-height: 1;
+    position: absolute;
+    right: 0;
+}
+
+.mdl-button--raised {
+    background: rgba(158,158,158,.2);
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+}
+.mdl-list {
+    padding: 0;
+    margin: 0;
+}
+.mdl-list__item.mdl-list__item--two-line {
+    height: auto;
+    padding: 0;
+}
+#app{
+	left: 50%;
+	position: absolute;
+	margin: 0 auto;
+	display: block;
+	transform: translateX(-50%);
+}
+.upperMenu {
+    background: lightcoral;
+    color: lightyellow;
+    margin-bottom: 20px;
+}
+.mdl-list__item--two-line .mdl-list__item-primary-content{
+	height: auto;
+}
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgb(255, 255, 255);
+}
+.mdl-card__title-text,
+.mdl-card__supporting-text {
+	color: chocolate !important;
+}
+.mdl-card--border{
+    text-align: center;
+}
+
+.mdl-card__title h2{
+    font-size: 2em;
+    margin: 0;
+    padding: 0;
+    color: chocolate;
+    width: 100%;
+}
+.mdl-card__title h2 span{
+    font-size: 0.35em;
+    opacity: 0.5;
+    line-height: 1;
+    float: right;
+    color: black;
+}
+input:focus {outline:0;}
