@@ -1,1 +1,3 @@
-# js-intertect-test
+# js-intertec-test
+
+technical test
